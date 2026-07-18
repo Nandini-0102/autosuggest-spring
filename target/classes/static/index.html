@@ -3,32 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Auto Suggest</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <!-- <h1>hello html!!</h1>   -->
-  <!-- <h2>this site is running livee in our</h2> -->
-   <div class="navbar">
-    <a href="https://www.google.com/">Home</a>
-    <a href="https://github.com/">Github</a>
-    <a href="https://leetcode.com/">Leetcode</a>
-    <a href="https://in.linkedin.com/">Linkedin</a>
-    <a href="">Autosuggest</a>
-   </div>
-   <div class="card">
-    <img src="john.png" alt="image not found">
-    <h3 id="user-name">John Doe</h3>
-    <p>Male</p>
-    <button>Toggle User</button>  
-    <br>
-    <br>
-    <button>Randon User</button>
+    <!-- <h1>Hello World!</h1> -->
+     <div class="navbar">
+        <a href="">Home</a>
+        <a href="https://github.com/">Github</a>
+        <a href="https://leetcode.com/">Leetcode</a>
+        <a href="">Autosuggest</a>
+     </div>
 
+     <div class="card">
+        <img id="user-image" src="john.png" alt="image not found">
+        <h3 id="user-name">John Doe</h3>
+        <p id="user-gender">Male</p>
 
-   </div>
-
-    
-  <script src="index.js"></script>
+        <button onclick="toggleUser()" >Toggle User</button>
+        
+        <br>
+        <br>
+        <button onclick="randomUser()" >Random User</button>
+     </div>
+    <script src="index.js"></script>
 </body>
 </html>
